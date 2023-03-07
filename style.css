@@ -1,0 +1,15 @@
+.perspective-container{
+    perspective: 800px;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background: red;
+    position: absolute;
+    transform: rotateX(45deg) rotateY(45deg);
+}
